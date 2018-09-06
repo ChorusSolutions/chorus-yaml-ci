@@ -19,6 +19,13 @@ As such, the repos in this GitHub organisation provide templates which can be le
 
 Parameters can be passed to the templates to make them flexible.
 
+These are the templates we have currently:
+
+| Name                                                                          | Description                         |
+| ----------------------------------------------------------------------------- | ----------------------------------- |
+| [chorus-umbraco-ci](https://github.com/ChorusSolutions/chorus-umbraco-ci)     | Umbraco projects                    |
+
+
 ## Versioning
 Our approach is to make each project opt-in to updates to the standard templates. This is achieved by referencing the templates through a specific git tag when using them in the target project. The architecture looks like this:
 
@@ -74,7 +81,7 @@ As documented [here](https://github.com/Microsoft/vsts-agent/blob/master/docs/pr
 Please create a GitHub repo in this organisation for your template and add the relevant branch policies as we do for VSTS repos.
 Don't forget the readme with your specific params!
 
-Please link back to this repo for instructions on getting started.
+Please link back to this repo for instructions on getting started...and add your template to the table to make it quick+easy for people to find!
 
 ## Versioning
 Please ensure that if you have a new version ready for use it is tagged with a semver release number, as all dependant projects will depend on this to target a specific version (making updates opt in)
