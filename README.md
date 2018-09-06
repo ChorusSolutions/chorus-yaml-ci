@@ -24,7 +24,7 @@ These are the templates we have currently:
 | Name                                                                          | Description                         |
 | ----------------------------------------------------------------------------- | ----------------------------------- |
 | [chorus-umbraco-ci](https://github.com/ChorusSolutions/chorus-umbraco-ci)     | Umbraco projects                    |
-
+| [npm-lib-ci](https://github.com/ChorusSolutions/npm-lib-ci)                   | Our own npm libraries               |
 
 ## Versioning
 Our approach is to make each project opt-in to updates to the standard templates. This is achieved by referencing the templates through a specific git tag when using them in the target project. The architecture looks like this:
